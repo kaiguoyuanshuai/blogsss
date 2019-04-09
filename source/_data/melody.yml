@@ -41,10 +41,10 @@ pwa:
 
 # Highlight theme
 # ---------------
-highlight_theme: default
+highlight_theme: darker
 
 # code_word_wrap: true or false
-
+code_word_wrap: true
 # Nav settings
 # see the icon_name in fontawesome website.
 # And you need to add the `fa` or `fab` prefix by your self.
@@ -65,6 +65,9 @@ algolia_search:
 # ---------------
 local_search:
   enable: false
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 
 # MathJax
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/#/third-party-support?id=mathjax
@@ -227,7 +230,7 @@ disqus:
 
 # Footer Settings
 # ---------------
-since: 2013
+since: 2019
 
 # footer_custom_text:
 
@@ -263,7 +266,10 @@ busuanzi:
 #   enable: true
 #   url: ''
 #   text: ''
-
+follow:
+  enable: true
+  url: 'https://github.com/kaiguoyuanshuai'
+  text: 'Follow Me'
 # Ads
 # ---------------
 # Google Adsense

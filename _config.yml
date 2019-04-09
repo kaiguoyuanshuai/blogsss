@@ -9,7 +9,7 @@ description: 记录技术、生活、学习与知识
 keywords:
  - java,mysql
 author: kaiguoyuanshuai
-language: zh-cn
+language: zh-Hans
 timezone: 
 
 # URL
@@ -41,7 +41,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
   
@@ -76,6 +76,10 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-melody
 
+search:
+  path: search.xml
+  field: post
+  content: true
 
 menu:
   home: / 
