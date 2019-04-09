@@ -6,7 +6,8 @@
 title: 每日记录美好生活
 subtitle: 开国元帅
 description: 记录技术、生活、学习与知识
-keywords: java,分布式,dubbo,mybatis,spring,kafka,rabittmq,mysql 
+keywords:
+ - java,mysql
 author: kaiguoyuanshuai
 language: zh-cn
 timezone: 
@@ -73,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-skapp
+theme: hexo-theme-melody
 
 
 menu:
